@@ -29,10 +29,10 @@ const ParentLayout = () => {
               <Link to="/parent/dashboard" className="flex items-center">
                 <img
                   className="h-8 w-auto"
-                  src="/logo.png"
-                  alt="K12 Logo"
+                  src="/self-learner-logo.svg"
+                  alt="Self Learner Logo"
                 />
-                <span className="ml-2 text-xl font-bold text-gray-900">K12</span>
+                <span className="ml-2 text-xl font-bold text-gray-900">Self Learner</span>
               </Link>
             </div>
 

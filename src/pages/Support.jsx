@@ -34,7 +34,7 @@ const Support = () => {
       <div className="bg-white shadow-sm">
         <div className="container mx-auto px-4 py-4">
           <Link to="/" className="flex-shrink-0">
-            <img src="/k12-logo.svg" alt="K12 Logo" className="h-12" />
+            <img src="/self-learner-logo.svg" alt="Self Learner Logo" className="h-12" />
           </Link>
         </div>
       </div>

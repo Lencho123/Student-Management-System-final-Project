@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Logo & Tagline */}
         <div className="flex-1 mb-8 md:mb-0 flex flex-col items-start">
           <Link to="/" className="mb-4">
-            <img src="/k12-logo.svg" alt="K12 Logo" className="h-10" />
+            <img src="/self-learner-logo.svg" alt="Self Learner Logo" className="h-10" />
           </Link>
           <p className="text-k12-yellow font-display font-semibold text-lg mb-2">{t('footer.tagline')}</p>
           <p className="text-white text-opacity-80 max-w-xs text-sm">{t('footer.description')}</p>

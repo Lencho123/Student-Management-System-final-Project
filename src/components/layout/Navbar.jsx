@@ -179,7 +179,7 @@ const Navbar = () => {
         <div className="container mx-auto flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex-shrink-0">
-            <img src="/k12-logo.svg" alt="K12 Logo" className="h-12" />
+            <img src="/self-learner-logo.svg" alt="Self Learner Logo" className="h-12" />
           </Link>
 
           {/* Mobile menu button */}
