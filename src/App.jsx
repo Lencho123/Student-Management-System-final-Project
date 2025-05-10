@@ -39,10 +39,14 @@ import ParentAlerts from './pages/parent/Alerts';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div className="flex flex-col min-h-screen">
         <div className="flex-1">
           <Routes>
+            {/* Public Routes */}
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            
             {/* Student Routes */}
             <Route
               path="/student"
@@ -90,9 +94,7 @@ function App() {
               <Route path="alerts" element={<ParentAlerts />} />
             </Route>
 
-            {/* Public Routes */}
-            <Route path="/" element={<Navigate to="/home" replace />} />
-            <Route path="/home" element={<Home />} />
+            {/* Other Public Routes */}
             <Route path="/enroll" element={<EnrollmentType />} />
             <Route path="/enroll/student" element={<StudentEnrollment />} />
             <Route path="/enroll/parent" element={<ParentEnrollment />} />
